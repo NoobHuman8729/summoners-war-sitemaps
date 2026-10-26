@@ -61,6 +61,7 @@ def main():
         json.dumps(status, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     (destination / 'index.html').write_text('''<!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google-site-verification" content="sQ2nZTBNf51TMljuTnOk22pY-iFjuXt9I4UvAtPthF4" />
 <meta name="robots" content="noindex"><title>サマナーズウォーモンスター図鑑 サイトマップ</title></head>
 <body><h1>サマナーズウォーモンスター図鑑 サイトマップ</h1>
 <p>本サイトのXMLを検証し、同じ内容を別ホストから配信しています。</p>
